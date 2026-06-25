@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Django: Run Server",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "manage.py",
+                "runserver"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": false,
+            "problemMatcher": []
+        },
+        {
+            "label": "Django: Make Migrations",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "manage.py",
+                "makemigrations"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Django: Migrate",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "manage.py",
+                "migrate"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Django: Create Superuser",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "manage.py",
+                "createsuperuser"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
