@@ -4,7 +4,7 @@ import simplejson
 from time import time  
 import datetime
 from  django.core.files.storage import FileSystemStorage
-from Farming.models import *
+from farming.models import *
 # creating the Block_chain class  
 class Block_chain(object):  
     def __init__(self):  

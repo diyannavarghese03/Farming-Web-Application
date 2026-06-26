@@ -1,0 +1,13 @@
+[1mdiff --git a/manage.py b/manage.py[m
+[1mindex 2181c37..56fb3b3 100644[m
+[1m--- a/manage.py[m
+[1m+++ b/manage.py[m
+[36m@@ -9,7 +9,7 @@[m [mdef main():[m
+     # Ensure the current directory is in sys.path[m
+     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))[m
+     [m
+[31m-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Farming.settings')[m
+[32m+[m[32m    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'farming.settings')[m[41m[m
+     try:[m
+         from django.core.management import execute_from_command_line[m
+     except ImportError as exc:[m

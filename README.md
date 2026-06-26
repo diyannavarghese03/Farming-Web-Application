@@ -27,11 +27,7 @@ Requests: Request management system<br>
 * **Live Link:** [View Live Application](https://your-demo-link.com)
 * **Test Account:** Username: `admin@example.com` | Password: `password123` *(Critical for recruiters to test it quickly)*
 
-## 📈 Technical Challenges & Solutions
-### Challenge: Slow data loading times on the dashboard
-* **Context:** The app stalled when fetching over 10,000 user activity records.
-* **Action:** Implemented Redis caching and optimized database indexing.
-* **Result:** Reduced API response latency by 65% (from 1.2s to 420ms).
+
 
 
 
