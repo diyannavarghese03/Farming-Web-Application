@@ -25,7 +25,7 @@ Requests: Request management system<br>
 
 ## ⚡ Live Demo & Credentials
 * **Live Link:** [View Live Application](https://your-demo-link.com)
-* **Test Account:** Username: `admin@example.com` | Password: `password123` *(Critical for recruiters to test it quickly)*
+* **Test Account:** Username: `admin@example.com` | Password: `password123` 
 
 
 
